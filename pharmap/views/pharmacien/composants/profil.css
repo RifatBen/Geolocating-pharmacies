@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 20px 0 0 0;
+
+  background-color: rgb(0, 190, 160);
+  color: rgb(38, 38, 94);
+}
+.navbar {
+  height: 20px;
+
+  background-color: white;
+  box-shadow: 0 0 5px;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* partie des redirection */
+.col-perso-1 {
+  padding: 5px;
+}
+.btn-light {
+  padding: 25px 0;
+  margin-bottom: 5px;
+  background-color: white;
+}
+.btn-warning, .btn-light {
+  border-radius: 0;
+  width: 100%;
+  color: rgb(38, 38, 94);
+}
+
+
+
+/* partie contenu */
+.col-perso-2 {
+  padding: 5px 5px 0 5px;
+}
+.box-info {
+  padding: 30px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+.box-info:hover {
+  box-shadow: 0px 0px 5px;
+}
+.titre {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn {
+  border-radius: 0;
+}
+.form-control {
+  border-color: lightgray;
+  border-radius: 0;
+}
+.btn-primary, .btn-danger {
+  margin-top: 30px;
+  width: 100%;
+}
+.none-padd {
+  padding: 0;
+}
+.val-err {
+  color: red;
+}
+
+
+
+/* formulaire de localisation */
+.bouton-validation {
+  margin: 10px 0 15px 0;
+}
+#position {
+	width: 100%;
+	height: 350px;
+  margin-bottom: 20px;
+  background-color: gray;
+}
+
+
+
+/* tableau des resultats */
+.table {
+  margin: 0;
+  text-align: center;
+}
+.table th, .table td {
+  padding: 3px 0;
+}
+.btn-delete {
+  padding: 0 8px;
+  color: red;
+}
+.btn-delete:hover {
+  color: red;
+  text-decoration: none;
+}
+.depase {
+  color: gray;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .col-perso-1 {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .col-perso-1 {
+    padding: 5px 0;
+  }
+  a {
+    margin-bottom: 5px;
+  }
+  .col-perso-2 {
+    padding: 0;
+  }
+  .box-info {
+    box-shadow: 0 0 0;
+  }
+}
+
+@media screen and (max-height: 385px) {
+  .col-perso-1 {
+    position: absolute;
+  }
+}

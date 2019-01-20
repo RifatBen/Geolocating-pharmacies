@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: rgb(240, 245, 240);
+  color: rgb(38, 38, 94);
+  font-size: 14px;
+}
+.row {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+/* menu lateral gauche */
+.menu {
+  padding: 0 5px;
+}
+
+hr {
+  margin: 15px 0 0 0;
+}
+.titre {
+  text-align: center;
+  margin: 5px 0 15px 0;
+}
+label {
+  margin: 0;
+}
+.form-group {
+  margin-bottom: 8px;
+}
+.form-control, .btn, .input-group-text {
+  font-size: 14px;
+  border-radius: 0;
+  padding: 3px 6px;
+}
+.radio-div {
+  padding: 3px 24px;
+}
+.btn-success, .btn-link {
+  width: 100%;
+  margin-top: 10px;
+}
+.erreur-map {
+  color: red;
+  text-align: center;
+}
+p {
+  margin-bottom: 5px;
+}
+
+
+
+/* resultat */
+.btn-info-perso {
+  margin: 0 3px;
+}
+
+
+
+/* map */
+.map {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  border-left: 1px solid lightgray;
+}
+#map {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+
+.action {
+  display: none;
+  margin-top: 0;
+  height: 29px;
+  width: 100%;
+}
+
+#resultat {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+  .menu {
+    display: none;
+  }
+  .action {
+    display: inline;
+  }
+  .map {
+    position: fixed;
+    top: 29px;
+    bottom: 0;
+    border: 0;
+  }
+}
